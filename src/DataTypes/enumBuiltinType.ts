@@ -27,5 +27,16 @@ let studentlist: RollNumber11 = RollNumber11.Ranga;
 console.log(studentlist);
 
 // string enum
+enum Student_detail {
+  Name = "NG",
+  Major = "MCA",
+}
+console.log(Student_detail);
+
+const enum Student_detail1 {
+  Name = "NG",
+  Major = "MCA",
+}
+console.log(Student_detail1.Major);
 
 // heterogeneous enum
