@@ -24,3 +24,5 @@ var Student_detail;
 })(Student_detail || (Student_detail = {}));
 console.log(Student_detail);
 console.log("MCA");
+console.log(1);
+console.log(`${1} - ${"NG"} has major in  ${"MCA"}`);

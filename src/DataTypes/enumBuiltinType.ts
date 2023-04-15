@@ -40,3 +40,12 @@ const enum Student_detail1 {
 console.log(Student_detail1.Major);
 
 // heterogeneous enum
+const enum Student_heterogeneous_detail1 {
+  id = 1,
+  Name = "NG",
+  Major = "MCA",
+}
+console.log(Student_heterogeneous_detail1.id);
+console.log(
+  `${Student_heterogeneous_detail1.id} - ${Student_heterogeneous_detail1.Name} has major in  ${Student_heterogeneous_detail1.Major}`
+);
