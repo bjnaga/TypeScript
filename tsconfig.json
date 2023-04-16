@@ -13,6 +13,7 @@
     "skipLibCheck": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true  ,                              /* Skip type checking all .d.ts files. */
-  "allowUnreachableCode": false
+  "allowUnreachableCode": false,
+  "strictNullChecks": true   // this value must be kept true always to avoid bugs, by default if it is not mentioned it will be true, while its true it will not allow us to send null and undefined type 
   }
 }
