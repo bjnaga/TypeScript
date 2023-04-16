@@ -7,3 +7,8 @@ if (num1 > num2) {
 } else if (num1 < num2) {
   console.log(`${num1} is greater than ${num2}`);
 } else console.log(`${num1} and ${num2} are equal`);
+
+// the above code can also be written using conditional operator.
+num1 > num2
+  ? console.log(`${num1} is greater than ${num2}`)
+  : console.log(`${num1} is greater than ${num2}`);
