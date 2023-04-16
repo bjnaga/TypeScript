@@ -4,7 +4,12 @@ function holidaySale(
   sales: number,
   tax: number,
   discount: number
-) {}
+) {
+  product;
+  sales;
+  tax;
+  discount;
+}
 
 // this below code contains return type unlike previous function.
 function holidaySale1(
@@ -13,6 +18,10 @@ function holidaySale1(
   tax: number,
   discount: number
 ): number {
+  product;
+  sales;
+  tax;
+  discount;
   let x: number = 10;
   return x;
 }
@@ -23,6 +32,10 @@ function holidaySale11(
   tax: number,
   discount: number
 ): number {
+  product;
+  sales;
+  tax;
+  discount;
   let price: number = 0;
   let x: number = 1;
   let z: string = "1";
