@@ -32,3 +32,6 @@ function holidaySale11(
 
   return price;
 }
+
+const test = holidaySale1("sunglasses", 10, 0.15, 0.1);
+console.log(test);
