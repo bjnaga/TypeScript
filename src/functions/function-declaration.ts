@@ -16,3 +16,19 @@ function holidaySale1(
   let x: number = 10;
   return x;
 }
+
+function holidaySale11(
+  product: string,
+  sales: number,
+  tax: number,
+  discount: number
+): number {
+  let price: number = 0;
+  let x: number = 1;
+  let z: string = "1";
+  let y: string = "str";
+  // == Return true only if the two operands are equal while === returns true only if both values and data types are the same for the two variables
+  if (y === "str") console.log("values are same");
+
+  return price;
+}
