@@ -39,6 +39,8 @@ function holidaySale11(
   let price: number = 0;
   let x: number = 1;
   let z: string = "1";
+  x = x + 1;
+  z = z + 1;
   let y: string = "str";
   // == Return true only if the two operands are equal while === returns true only if both values and data types are the same for the two variables
   if (y === "str") console.log("values are same");
