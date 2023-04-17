@@ -14,3 +14,9 @@ type Student = { fullName: string };
 function studentDB1(student1: Student): string {
   return student1.fullName;
 }
+//Destructuring  property , explained
+function studentDB2({ fullName }: Student): string {
+  return fullName; // here im trying to destructuring property as we are assessing the property directly rather than through student1.fullName
+}
+
+console.log(studentDB2({ fullName: "NG" }));

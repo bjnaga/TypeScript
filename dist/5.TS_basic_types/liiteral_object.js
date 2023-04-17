@@ -9,3 +9,7 @@ console.log(studentDB(student));
 function studentDB1(student1) {
     return student1.fullName;
 }
+function studentDB2({ fullName }) {
+    return fullName;
+}
+console.log(studentDB2({ fullName: "NG" }));
