@@ -1,3 +1,4 @@
+// It combines multiple sections together
 type ProductProperties = {
   id: number;
   category: string;
